@@ -1,3 +1,5 @@
-function Kristofer ( ) {
-return Kristofer;
+```js
+function myFunction () {
+   return 42;
 }
+```
