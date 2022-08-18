@@ -3,11 +3,26 @@
 ```
 mermaid
 classDiagram
-class BankAccount
-BankAccount : +String owner
-BankAccount : +BigDecimal balance
-BankAccount : +deposit(amount)
-BankAccount : +withdrawal(amount)
+      Djur <|-- Anka
+      Djur <|-- Fisk
+      Djur <|-- Zebra
+      Djur : +int age
+      Djur : +String gender
+      Djur: +isDaeggdjur()
+      Djur: +mate()
+      class Anka{
+          +String footColor
+          +Simma()
+          +Prata()
+      }
+      class Fisk{
+          -int skoStorlek
+          -canEat()
+      }
+      class Zebra{
+          +bool is_wild
+          +run()
+      }
 ```
 
 ```mermaid
