@@ -1,23 +1,18 @@
-# Userstory-014
+# Userstory-004
 
-## Pie-charts
+Another code block
 
-Since Userstory-014 was not specified, we will here present a pie chart.<br>
-"mermaid" and "pie" are the more important key words in this instance.
-
-```mermaid
-pie
-    title Pie Chart
-    "Idioter" : 402
-    "Icke-idioter" : 270
-    "Övriga" : 87 
+```js
+export default ({ products }) => {
+    return products.map(product => {
+        return (
+            <div className="product" key={product.id}>
+                <div className="p-name">{product.name}</div>
+                <div className="p-desc">{product.description}</div>
+            </div>
+        );
+    });
+};
 ```
 
-```
-mermaid
-pie
-    title Pie Chart
-    "Idioter" : 402
-    "Icke-idioter" : 270
-    "Övriga" : 87 
-```
+Just add "```"js and close it.
