@@ -1,7 +1,6 @@
 # Userstory-013
 
 ```
-mermaid
 classDiagram
 class BankAccount
 BankAccount : +String owner
@@ -10,12 +9,28 @@ BankAccount : +deposit(amount)
 BankAccount : +withdrawal(amount)
 ```
 
-mermaid
+```mermaid
 classDiagram
-class BankAccount
-BankAccount : +String owner
-BankAccount : +BigDecimal balance
-BankAccount : +deposit(amount)
-BankAccount : +withdrawal(amount)
+      Animal <|-- Duck
+      Animal <|-- Fish
+      Animal <|-- Zebra
+      Animal : +int age
+      Animal : +String gender
+      Animal: +isMammal()
+      Animal: +mate()
+      class Duck{
+          +String beakColor
+          +swim()
+          +quack()
+      }
+      class Fish{
+          -int sizeInFeet
+          -canEat()
+      }
+      class Zebra{
+          +bool is_wild
+          +run()
+      }
+```
 
 
