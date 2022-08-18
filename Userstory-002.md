@@ -2,8 +2,8 @@
 
 ## Pie-charts
 
-Since Userstory-014 was not specified, we will here present a pie chart.
-"mermaid, pie" are the more important key words in this instance.
+Since Userstory-014 was not specified, we will here present a pie chart.<br>
+"mermaid" and "pie" are the more important key words in this instance.
 
 ```mermaid
 pie
