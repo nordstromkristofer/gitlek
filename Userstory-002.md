@@ -33,7 +33,7 @@ There are a few ways of making lists.
 
 ### 1. 
 
-You can either put a ```<mark>```-tag (w opening/closing tag)
+You can either put a mark-tag (w opening/closing tag)
 
 So <mark>this</mark> part of the text should now be lit.
 
