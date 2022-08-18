@@ -1,52 +1,23 @@
-# Userstory-013
+# Userstory-014
+
+## Pie-charts
+
+Since Userstory-014 was not specified, we will here present a pie chart.
+"mermaid, pie" are the more important key words in this instance.
+
+```mermaid
+pie
+    title Pie Chart
+    "Idioter" : 402
+    "Icke-idioter" : 270
+    "Övriga" : 87 
+```
 
 ```
 mermaid
-classDiagram
-      Djur <|-- Anka
-      Djur <|-- Fisk
-      Djur <|-- Zebra
-      Djur : +int age
-      Djur : +String gender
-      Djur: +isDaeggdjur()
-      Djur: +mate()
-      class Anka{
-          +String footColor
-          +Simma()
-          +Prata()
-      }
-      class Fisk{
-          -int skoStorlek
-          -canEat()
-      }
-      class Zebra{
-          +bool is_wild
-          +run()
-      }
+pie
+    title Pie Chart
+    "Idioter" : 402
+    "Icke-idioter" : 270
+    "Övriga" : 87 
 ```
-
-```mermaid
-classDiagram
-      Djur <|-- Anka
-      Djur <|-- Fisk
-      Djur <|-- Zebra
-      Djur : +int age
-      Djur : +String gender
-      Djur: +isDaeggdjur()
-      Djur: +mate()
-      class Anka{
-          +String footColor
-          +Simma()
-          +Prata()
-      }
-      class Fisk{
-          -int skoStorlek
-          -canEat()
-      }
-      class Zebra{
-          +bool is_wild
-          +run()
-      }
-```
-
-
