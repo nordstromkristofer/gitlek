@@ -1,35 +1,26 @@
-# Userstory-015
+# Userstory-013
 
-## Highlighting certain words in markdown.
-
-### 1. 
-
-You can either put a mark-tag (w opening/closing tag)
-
-<mark>highlighted</mark>
-
-### 2.
-
-You can do it javascript style as well, by highlighting the text by color.
-
-```js
-<div style="background-color: #FFFF00">Highlighted text</div>
-```
-
-
-# Userstory-010
-
-## Making lists
-
-There are a few ways of making lists.
-
-### 1. 
-
-You can also press ctrl+p to do a block selection, and through "veteran speed keyboarding" make lists incredibly fast.
-
-### 2. 
-
-Of course you can still work the same good old ```<ul/><li/>```-way
+classDiagram
+    Animal <|-- Duck
+    Animal <|-- Fish
+    Animal <|-- Zebra
+    Animal : +int age
+    Animal : +String gender
+    Animal: +isMammal()
+    Animal: +mate()
+    class Duck{
+        +String beakColor
+        +swim()
+        +quack()
+    }
+    class Fish{
+        -int sizeInFeet
+        -canEat()
+    }
+    class Zebra{
+        +bool is_wild
+        +run()
+    }
 
 
 
